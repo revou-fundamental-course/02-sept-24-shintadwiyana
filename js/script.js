@@ -12,7 +12,7 @@ document.getElementById('parallelogram-btn').addEventListener('click', function(
 
 // Hitung luas dan keliling segitiga
 function segitiga() {
-    document.getElementById('hasil Keli').innerHTML=parseFloat(ac.value)+parseFloat(bc.value*2);
+    document.getElementById('hasil Keli').innerHTML=parseFloat(ab.value)+parseFloat(ac.value*2);
     document.getElementById('hasil Luas').innerHTML=parseFloat(alas.value)*parseFloat(tinggi.value)/2;
 }
 
